@@ -35,7 +35,7 @@ fuse-alert {
             .fuse-alert-default-icon {
 
                 .mat-icon {
-                    @layer icon-size-5;
+                    @apply icon-size-5;
                 }
             }
 
@@ -101,7 +101,7 @@ fuse-alert {
             line-height: 32px !important;
 
             .mat-icon {
-                @layer icon-size-4;
+                @apply icon-size-4;
             }
         }
     }
@@ -134,7 +134,7 @@ fuse-alert {
             position: relative;
             overflow: hidden;
             border-radius: 6px;
-            @layer shadow-md bg-card;
+            @apply shadow-md bg-card;
 
             .fuse-alert-border {
                 position: absolute;
@@ -145,7 +145,7 @@ fuse-alert {
             }
 
             .fuse-alert-message {
-                @layer text-gray-600;
+                @apply text-gray-600;
             }
         }
 
@@ -155,32 +155,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-primary;
+                    @apply bg-primary;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-primary;
+                    @apply text-primary;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-primary-400;
+                        @apply bg-primary-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-primary-400;
+                        @apply text-primary-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -192,32 +192,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-accent;
+                    @apply bg-accent;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-accent;
+                    @apply text-accent;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-accent-400;
+                        @apply bg-accent-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-accent-400;
+                        @apply text-accent-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -229,32 +229,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-warn;
+                    @apply bg-warn;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-warn;
+                    @apply text-warn;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-warn-400;
+                        @apply bg-warn-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-warn-400;
+                        @apply text-warn-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -266,32 +266,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-gray-600;
+                    @apply bg-gray-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-gray-600;
+                    @apply text-gray-600;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-gray-400;
+                        @apply bg-gray-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-gray-400;
+                        @apply text-gray-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -303,32 +303,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-blue-600;
+                    @apply bg-blue-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-blue-700;
+                    @apply text-blue-700;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-blue-400;
+                        @apply bg-blue-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-blue-400;
+                        @apply text-blue-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -340,32 +340,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-green-500;
+                    @apply bg-green-500;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-green-500;
+                    @apply text-green-500;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-green-400;
+                        @apply bg-green-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-green-400;
+                        @apply text-green-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -377,32 +377,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-amber-500;
+                    @apply bg-amber-500;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-amber-500;
+                    @apply text-amber-500;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-amber-400;
+                        @apply bg-amber-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-amber-400;
+                        @apply text-amber-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -414,32 +414,32 @@ fuse-alert {
             .fuse-alert-container {
 
                 .fuse-alert-border {
-                    @layer bg-red-600;
+                    @apply bg-red-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-icon {
-                    @layer text-red-700;
+                    @apply text-red-700;
                 }
 
                 .dark & {
-                    @layer bg-gray-700;
+                    @apply bg-gray-700;
 
                     .fuse-alert-border {
-                        @layer bg-red-400;
+                        @apply bg-red-400;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-icon {
-                        @layer text-red-400;
+                        @apply text-red-400;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-300;
+                        @apply text-gray-300;
                     }
 
                     code {
-                        @layer bg-gray-400 text-gray-800;
+                        @apply bg-gray-400 text-gray-800;
                     }
                 }
             }
@@ -453,7 +453,7 @@ fuse-alert {
             border-radius: 6px;
 
             .fuse-alert-dismiss-button {
-                @layer text-white;
+                @apply text-white;
             }
         }
 
@@ -461,22 +461,22 @@ fuse-alert {
         &.fuse-alert-type-primary {
 
             .fuse-alert-container {
-                @layer bg-primary-600;
+                @apply bg-primary-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-primary-100;
+                    @apply text-primary-100;
                 }
 
                 code {
-                    @layer text-primary-800 bg-primary-200;
+                    @apply text-primary-800 bg-primary-200;
                 }
             }
         }
@@ -485,22 +485,22 @@ fuse-alert {
         &.fuse-alert-type-accent {
 
             .fuse-alert-container {
-                @layer bg-accent-600;
+                @apply bg-accent-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-accent-100;
+                    @apply text-accent-100;
                 }
 
                 code {
-                    @layer text-accent-800 bg-accent-200;
+                    @apply text-accent-800 bg-accent-200;
                 }
             }
         }
@@ -509,22 +509,22 @@ fuse-alert {
         &.fuse-alert-type-warn {
 
             .fuse-alert-container {
-                @layer bg-warn-600;
+                @apply bg-warn-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-warn-100;
+                    @apply text-warn-100;
                 }
 
                 code {
-                    @layer text-warn-800 bg-warn-200;
+                    @apply text-warn-800 bg-warn-200;
                 }
             }
         }
@@ -533,22 +533,22 @@ fuse-alert {
         &.fuse-alert-type-basic {
 
             .fuse-alert-container {
-                @layer bg-gray-600;
+                @apply bg-gray-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-gray-100;
+                    @apply text-gray-100;
                 }
 
                 code {
-                    @layer bg-gray-200 text-gray-800;
+                    @apply bg-gray-200 text-gray-800;
                 }
             }
         }
@@ -557,22 +557,22 @@ fuse-alert {
         &.fuse-alert-type-info {
 
             .fuse-alert-container {
-                @layer bg-blue-600;
+                @apply bg-blue-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-blue-100;
+                    @apply text-blue-100;
                 }
 
                 code {
-                    @layer bg-blue-200 text-blue-800;
+                    @apply bg-blue-200 text-blue-800;
                 }
             }
         }
@@ -581,22 +581,22 @@ fuse-alert {
         &.fuse-alert-type-success {
 
             .fuse-alert-container {
-                @layer bg-green-600;
+                @apply bg-green-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-green-100;
+                    @apply text-green-100;
                 }
 
                 code {
-                    @layer bg-green-200 text-gray-800;
+                    @apply bg-green-200 text-gray-800;
                 }
             }
         }
@@ -605,22 +605,22 @@ fuse-alert {
         &.fuse-alert-type-warning {
 
             .fuse-alert-container {
-                @layer bg-amber-500;
+                @apply bg-amber-500;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-amber-100;
+                    @apply text-amber-100;
                 }
 
                 code {
-                    @layer bg-amber-200 text-amber-800;
+                    @apply bg-amber-200 text-amber-800;
                 }
             }
         }
@@ -629,22 +629,22 @@ fuse-alert {
         &.fuse-alert-type-error {
 
             .fuse-alert-container {
-                @layer bg-red-600;
+                @apply bg-red-600;
 
                 .fuse-alert-icon {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-title {
-                    @layer text-white;
+                    @apply text-white;
                 }
 
                 .fuse-alert-message {
-                    @layer text-red-100;
+                    @apply text-red-100;
                 }
 
                 code {
-                    @layer bg-red-200 text-red-800;
+                    @apply bg-red-200 text-red-800;
                 }
             }
         }
@@ -661,39 +661,39 @@ fuse-alert {
         &.fuse-alert-type-primary {
 
             .fuse-alert-container {
-                @layer bg-primary-50 ring-1 ring-primary-400 ring-inset;
+                @apply bg-primary-50 ring-1 ring-primary-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-primary-600;
+                    @apply text-primary-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-primary-900;
+                    @apply text-primary-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-primary-700;
+                    @apply text-primary-700;
                 }
 
                 code {
-                    @layer text-primary-800 bg-primary-200;
+                    @apply text-primary-800 bg-primary-200;
                 }
 
                 .dark & {
-                    @layer bg-primary-600;
+                    @apply bg-primary-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-primary-200;
+                        @apply text-primary-200;
                     }
                 }
             }
@@ -703,39 +703,39 @@ fuse-alert {
         &.fuse-alert-type-accent {
 
             .fuse-alert-container {
-                @layer bg-accent-100 ring-1 ring-accent-400 ring-inset;
+                @apply bg-accent-100 ring-1 ring-accent-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-accent-600;
+                    @apply text-accent-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-accent-900;
+                    @apply text-accent-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-accent-700;
+                    @apply text-accent-700;
                 }
 
                 code {
-                    @layer text-accent-800 bg-accent-200;
+                    @apply text-accent-800 bg-accent-200;
                 }
 
                 .dark & {
-                    @layer bg-accent-600;
+                    @apply bg-accent-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-accent-200;
+                        @apply text-accent-200;
                     }
                 }
             }
@@ -745,39 +745,39 @@ fuse-alert {
         &.fuse-alert-type-warn {
 
             .fuse-alert-container {
-                @layer bg-warn-50 ring-1 ring-warn-400 ring-inset;
+                @apply bg-warn-50 ring-1 ring-warn-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-warn-600;
+                    @apply text-warn-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-warn-900;
+                    @apply text-warn-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-warn-700;
+                    @apply text-warn-700;
                 }
 
                 code {
-                    @layer text-warn-800 bg-warn-200;
+                    @apply text-warn-800 bg-warn-200;
                 }
 
                 .dark & {
-                    @layer bg-warn-600;
+                    @apply bg-warn-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-warn-200;
+                        @apply text-warn-200;
                     }
                 }
             }
@@ -787,39 +787,39 @@ fuse-alert {
         &.fuse-alert-type-basic {
 
             .fuse-alert-container {
-                @layer bg-gray-100 ring-1 ring-gray-400 ring-inset;
+                @apply bg-gray-100 ring-1 ring-gray-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-gray-600;
+                    @apply text-gray-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-gray-900;
+                    @apply text-gray-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-gray-700;
+                    @apply text-gray-700;
                 }
 
                 code {
-                    @layer bg-gray-200 text-gray-800;
+                    @apply bg-gray-200 text-gray-800;
                 }
 
                 .dark & {
-                    @layer bg-gray-600;
+                    @apply bg-gray-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-200;
+                        @apply text-gray-200;
                     }
                 }
             }
@@ -829,39 +829,39 @@ fuse-alert {
         &.fuse-alert-type-info {
 
             .fuse-alert-container {
-                @layer bg-blue-50 ring-1 ring-blue-400 ring-inset;
+                @apply bg-blue-50 ring-1 ring-blue-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-blue-600;
+                    @apply text-blue-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-blue-900;
+                    @apply text-blue-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-blue-700;
+                    @apply text-blue-700;
                 }
 
                 code {
-                    @layer bg-blue-200 text-blue-800;
+                    @apply bg-blue-200 text-blue-800;
                 }
 
                 .dark & {
-                    @layer bg-blue-600;
+                    @apply bg-blue-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-blue-200;
+                        @apply text-blue-200;
                     }
                 }
             }
@@ -871,39 +871,39 @@ fuse-alert {
         &.fuse-alert-type-success {
 
             .fuse-alert-container {
-                @layer bg-green-50 ring-1 ring-green-400 ring-inset;
+                @apply bg-green-50 ring-1 ring-green-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-green-600;
+                    @apply text-green-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-green-900;
+                    @apply text-green-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-green-700;
+                    @apply text-green-700;
                 }
 
                 code {
-                    @layer bg-green-200 text-green-800;
+                    @apply bg-green-200 text-green-800;
                 }
 
                 .dark & {
-                    @layer bg-green-600;
+                    @apply bg-green-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-green-200;
+                        @apply text-green-200;
                     }
                 }
             }
@@ -913,39 +913,39 @@ fuse-alert {
         &.fuse-alert-type-warning {
 
             .fuse-alert-container {
-                @layer bg-amber-50 ring-1 ring-amber-400 ring-inset;
+                @apply bg-amber-50 ring-1 ring-amber-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-amber-600;
+                    @apply text-amber-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-amber-900;
+                    @apply text-amber-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-amber-700;
+                    @apply text-amber-700;
                 }
 
                 code {
-                    @layer bg-amber-200 text-amber-800;
+                    @apply bg-amber-200 text-amber-800;
                 }
 
                 .dark & {
-                    @layer bg-amber-600;
+                    @apply bg-amber-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-amber-200;
+                        @apply text-amber-200;
                     }
                 }
             }
@@ -955,39 +955,39 @@ fuse-alert {
         &.fuse-alert-type-error {
 
             .fuse-alert-container {
-                @layer bg-red-50 ring-1 ring-red-400 ring-inset;
+                @apply bg-red-50 ring-1 ring-red-400 ring-inset;
 
                 .fuse-alert-icon {
-                    @layer text-red-600;
+                    @apply text-red-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-red-900;
+                    @apply text-red-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-red-700;
+                    @apply text-red-700;
                 }
 
                 code {
-                    @layer bg-red-200 text-red-800;
+                    @apply bg-red-200 text-red-800;
                 }
 
                 .dark & {
-                    @layer bg-red-600;
+                    @apply bg-red-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-red-200;
+                        @apply text-red-200;
                     }
                 }
             }
@@ -1005,39 +1005,39 @@ fuse-alert {
         &.fuse-alert-type-primary {
 
             .fuse-alert-container {
-                @layer bg-primary-50;
+                @apply bg-primary-50;
 
                 .fuse-alert-icon {
-                    @layer text-primary-600;
+                    @apply text-primary-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-primary-900;
+                    @apply text-primary-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-primary-700;
+                    @apply text-primary-700;
                 }
 
                 code {
-                    @layer text-primary-800 bg-primary-200;
+                    @apply text-primary-800 bg-primary-200;
                 }
 
                 .dark & {
-                    @layer bg-primary-600;
+                    @apply bg-primary-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-primary-200;
+                        @apply text-primary-200;
                     }
                 }
             }
@@ -1047,39 +1047,39 @@ fuse-alert {
         &.fuse-alert-type-accent {
 
             .fuse-alert-container {
-                @layer bg-accent-100;
+                @apply bg-accent-100;
 
                 .fuse-alert-icon {
-                    @layer text-accent-600;
+                    @apply text-accent-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-accent-900;
+                    @apply text-accent-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-accent-700;
+                    @apply text-accent-700;
                 }
 
                 code {
-                    @layer text-accent-800 bg-accent-200;
+                    @apply text-accent-800 bg-accent-200;
                 }
 
                 .dark & {
-                    @layer bg-accent-600;
+                    @apply bg-accent-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-accent-200;
+                        @apply text-accent-200;
                     }
                 }
             }
@@ -1089,39 +1089,39 @@ fuse-alert {
         &.fuse-alert-type-warn {
 
             .fuse-alert-container {
-                @layer bg-warn-50;
+                @apply bg-warn-50;
 
                 .fuse-alert-icon {
-                    @layer text-warn-600;
+                    @apply text-warn-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-warn-900;
+                    @apply text-warn-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-warn-700;
+                    @apply text-warn-700;
                 }
 
                 code {
-                    @layer text-warn-800 bg-warn-200;
+                    @apply text-warn-800 bg-warn-200;
                 }
 
                 .dark & {
-                    @layer bg-warn-600;
+                    @apply bg-warn-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-warn-200;
+                        @apply text-warn-200;
                     }
                 }
             }
@@ -1131,39 +1131,39 @@ fuse-alert {
         &.fuse-alert-type-basic {
 
             .fuse-alert-container {
-                @layer bg-gray-100;
+                @apply bg-gray-100;
 
                 .fuse-alert-icon {
-                    @layer text-gray-600;
+                    @apply text-gray-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-gray-900;
+                    @apply text-gray-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-gray-700;
+                    @apply text-gray-700;
                 }
 
                 code {
-                    @layer bg-gray-200 text-gray-800;
+                    @apply bg-gray-200 text-gray-800;
                 }
 
                 .dark & {
-                    @layer bg-gray-600;
+                    @apply bg-gray-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-gray-200;
+                        @apply text-gray-200;
                     }
                 }
             }
@@ -1173,39 +1173,39 @@ fuse-alert {
         &.fuse-alert-type-info {
 
             .fuse-alert-container {
-                @layer bg-blue-50;
+                @apply bg-blue-50;
 
                 .fuse-alert-icon {
-                    @layer text-blue-600;
+                    @apply text-blue-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-blue-900;
+                    @apply text-blue-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-blue-700;
+                    @apply text-blue-700;
                 }
 
                 code {
-                    @layer bg-blue-200 text-blue-800;
+                    @apply bg-blue-200 text-blue-800;
                 }
 
                 .dark & {
-                    @layer bg-blue-600;
+                    @apply bg-blue-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-blue-200;
+                        @apply text-blue-200;
                     }
                 }
             }
@@ -1215,39 +1215,39 @@ fuse-alert {
         &.fuse-alert-type-success {
 
             .fuse-alert-container {
-                @layer bg-green-50;
+                @apply bg-green-50;
 
                 .fuse-alert-icon {
-                    @layer text-green-600;
+                    @apply text-green-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-green-900;
+                    @apply text-green-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-green-700;
+                    @apply text-green-700;
                 }
 
                 code {
-                    @layer bg-green-200 text-green-800;
+                    @apply bg-green-200 text-green-800;
                 }
 
                 .dark & {
-                    @layer bg-green-600;
+                    @apply bg-green-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-green-200;
+                        @apply text-green-200;
                     }
                 }
             }
@@ -1257,39 +1257,39 @@ fuse-alert {
         &.fuse-alert-type-warning {
 
             .fuse-alert-container {
-                @layer bg-amber-50;
+                @apply bg-amber-50;
 
                 .fuse-alert-icon {
-                    @layer text-amber-600;
+                    @apply text-amber-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-amber-900;
+                    @apply text-amber-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-amber-700;
+                    @apply text-amber-700;
                 }
 
                 code {
-                    @layer bg-amber-200 text-amber-800;
+                    @apply bg-amber-200 text-amber-800;
                 }
 
                 .dark & {
-                    @layer bg-amber-600;
+                    @apply bg-amber-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-amber-200;
+                        @apply text-amber-200;
                     }
                 }
             }
@@ -1299,39 +1299,39 @@ fuse-alert {
         &.fuse-alert-type-error {
 
             .fuse-alert-container {
-                @layer bg-red-50;
+                @apply bg-red-50;
 
                 .fuse-alert-icon {
-                    @layer text-red-600;
+                    @apply text-red-600;
                 }
 
                 .fuse-alert-title,
                 .fuse-alert-dismiss-button {
-                    @layer text-red-900;
+                    @apply text-red-900;
                 }
 
                 .fuse-alert-message {
-                    @layer text-red-700;
+                    @apply text-red-700;
                 }
 
                 code {
-                    @layer bg-red-200 text-red-800;
+                    @apply bg-red-200 text-red-800;
                 }
 
                 .dark & {
-                    @layer bg-red-600;
+                    @apply bg-red-600;
 
                     .fuse-alert-icon {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-title,
                     .fuse-alert-dismiss-button {
-                        @layer text-white;
+                        @apply text-white;
                     }
 
                     .fuse-alert-message {
-                        @layer text-red-200;
+                        @apply text-red-200;
                     }
                 }
             }

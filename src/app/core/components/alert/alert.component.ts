@@ -60,21 +60,21 @@ export class AlertComponent implements OnChanges, OnInit, OnDestroy
     {
         /* eslint-disable @typescript-eslint/naming-convention */
         return {
-            '-alert-appearance-border' : this.appearance === 'border',
-            '-alert-appearance-fill'   : this.appearance === 'fill',
-            '-alert-appearance-outline': this.appearance === 'outline',
-            '-alert-appearance-soft'   : this.appearance === 'soft',
-            '-alert-dismissed'         : this.dismissed,
-            '-alert-dismissible'       : this.dismissible,
-            '-alert-show-icon'         : this.showIcon,
-            '-alert-type-primary'      : this.type === 'primary',
-            '-alert-type-accent'       : this.type === 'accent',
-            '-alert-type-warn'         : this.type === 'warn',
-            '-alert-type-basic'        : this.type === 'basic',
-            '-alert-type-info'         : this.type === 'info',
-            '-alert-type-success'      : this.type === 'success',
-            '-alert-type-warning'      : this.type === 'warning',
-            '-alert-type-error'        : this.type === 'error',
+           'fuse-alert-appearance-border' : this.appearance === 'border',
+            'fuse-alert-appearance-fill'   : this.appearance === 'fill',
+            'fuse-alert-appearance-outline': this.appearance === 'outline',
+            'fuse-alert-appearance-soft'   : this.appearance === 'soft',
+            'fuse-alert-dismissed'         : this.dismissed,
+            'fuse-alert-dismissible'       : this.dismissible,
+            'fuse-alert-show-icon'         : this.showIcon,
+            'fuse-alert-type-primary'      : this.type === 'primary',
+            'fuse-alert-type-accent'       : this.type === 'accent',
+            'fuse-alert-type-warn'         : this.type === 'warn',
+            'fuse-alert-type-basic'        : this.type === 'basic',
+            'fuse-alert-type-info'         : this.type === 'info',
+            'fuse-alert-type-success'      : this.type === 'success',
+            'fuse-alert-type-warning'      : this.type === 'warning',
+            'fuse-alert-type-error'        : this.type === 'error',
         };
         /* eslint-enable @typescript-eslint/naming-convention */
     }
@@ -94,7 +94,7 @@ export class AlertComponent implements OnChanges, OnInit, OnDestroy
         if ( 'dismissed' in changes )
         {
             // Coerce the value to a boolean
-            this.dismissed = coerceBooleanProperty(changes['dismissed'].currentValue);
+            this.dismissed = coerceBooleanProperty(changes.dismissed.currentValue);
 
             // Dismiss/show the alert
             this._toggleDismiss(this.dismissed);
@@ -104,14 +104,14 @@ export class AlertComponent implements OnChanges, OnInit, OnDestroy
         if ( 'dismissible' in changes )
         {
             // Coerce the value to a boolean
-            this.dismissible = coerceBooleanProperty(changes['dismissible'].currentValue);
+            this.dismissible = coerceBooleanProperty(changes.dismissible.currentValue);
         }
 
         // Show icon
         if ( 'showIcon' in changes )
         {
             // Coerce the value to a boolean
-            this.showIcon = coerceBooleanProperty(changes['showIcon'].currentValue);
+            this.showIcon = coerceBooleanProperty(changes.showIcon.currentValue);
         }
     }
 
